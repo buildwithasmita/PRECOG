@@ -1,7 +1,7 @@
-# PRECOG Dashboard Specification
+﻿# PRECOG Dashboard Specification
 
 ## Overview
-Executive dashboard for American Express KYC analysts showing ML predictions, cost savings, and outreach recommendations.
+Executive dashboard for KYC analysts showing ML predictions, cost savings, and outreach recommendations.
 
 ## Data Sources
 1. predictions.csv - Customer-level predictions
@@ -101,7 +101,7 @@ Card 4: Avg Response Probability
 4. Drill-down from pie chart to table
 
 ## Color Scheme
-- Primary: Amex Blue (#006FCF)
+- Primary: Primary Blue (#006FCF)
 - Success: Green (#00B140)
 - Warning: Yellow (#FFB900)
 - Danger: Red (#D32F2F)
@@ -118,3 +118,4 @@ IMPORTANT:
 - Load time < 3 seconds
 - Auto-refresh every 15 minutes
 - Accessible color contrasts
+

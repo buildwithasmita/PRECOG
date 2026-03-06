@@ -14,7 +14,7 @@ def main() -> None:
     print("=" * 60)
     print("PRECOG Demo")
     print("=" * 60)
-    print("\nAmerican Express KYC Refresh Prediction System")
+    print("\nKYC Refresh Prediction System")
     print("Problem: INR 3.5M annual cost for manual outreach")
     print("Solution: ML-powered targeted outreach -> INR 1.5M cost\n")
     input("Press Enter to start demo...")
@@ -81,3 +81,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

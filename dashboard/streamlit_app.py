@@ -9,7 +9,7 @@ import streamlit as st
 
 
 st.set_page_config(
-    page_title="PRECOG - Amex India",
+    page_title="PRECOG",
     page_icon="??",
     layout="wide",
 )
@@ -179,7 +179,7 @@ def _to_float(cost_df: pd.DataFrame, metric_name: str, default: float = 0.0) -> 
 
 
 # Header
-st.title("?? PRECOG - Amex India")
+st.title("🎯 PRECOG")
 st.subheader("ML-Powered Periodic KYC Refresh Predictor")
 st.write(
     "Predict customer response likelihood to KYC refresh campaigns, optimize outreach channels, "
@@ -309,4 +309,5 @@ st.caption(
     f"Baseline cost: ?{baseline_cost:,.0f} | Optimized cost: ?{optimized_cost:,.0f} | "
     f"Savings: ?{savings:,.0f}"
 )
+
 
