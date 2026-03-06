@@ -1,5 +1,5 @@
 ﻿# 🎯 PRECOG
-> ML-powered periodic KYC refresh predictor for American Express
+> ML-powered periodic KYC refresh predictor for card issuers
 
 Predict which customers will respond to KYC refresh requests and optimize outreach costs by 50%.
 
@@ -12,7 +12,7 @@ Predict which customers will respond to KYC refresh requests and optimize outrea
 
 ## 📊 The Challenge
 
-RBI mandates periodic KYC refresh for financial institutions. American Express faces:
+RBI mandates periodic KYC refresh for financial institutions. Large card issuers face:
 - **1M+ customers** need periodic verification
 - **<30% respond voluntarily** to standard reminders
 - **₹3.5M annual cost** for manual outreach
@@ -97,7 +97,7 @@ open http://localhost:8000/docs
 
 ---
 
-## 🏢 American Express Context
+## 🏢 Industry Context
 
 **RBI Compliance Requirements:**
 - Periodic KYC refresh: 2 years for low-risk, 8 years for high-risk
@@ -190,7 +190,7 @@ MIT License
 ## 👤 Author
 
 [Your Name]  
-Built for American Express KYC Analytics role
+Built as a KYC analytics portfolio project
 
 LinkedIn | Email
 
