@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Env
+.env
+BACKEND/.env
+BACKEND/venv/
+venv/
+
+# Models / generated data
+BACKEND/data/models/*.joblib
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Generated exports
+BACKEND/data/raw/*.csv
+BACKEND/data/dashboard/*.csv
+BACKEND/notebooks/
+
